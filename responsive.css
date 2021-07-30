@@ -1,0 +1,72 @@
+@media(max-width: 760px)
+{
+.third-section{
+    flex-wrap: wrap;
+    
+}
+.ceo-section{
+    flex-wrap: wrap;
+    padding: 80px 34px;
+}
+.poster1 img{
+    margin-bottom: 20px;
+}
+.footer-container{
+    flex-wrap: wrap;
+}
+
+
+}
+@media(max-width: 320px)
+{
+    .poster img{
+        margin-left: 20px;
+        width: 260px;
+    }
+    .third-section{
+        padding: 50px 30px;
+    }
+    p.para{
+        line-height: 20px;
+    }
+    .lorem1{
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+    .poster1 img{
+        width: 280px;
+    
+    margin-left: 27px;
+    }
+}
+
+@media screen and (max-width:760px){
+    .navigation-links{
+        display: none;
+    }
+    
+}
+@media(max-width: 700px)
+{
+    .logo img{
+        width: 170px;
+}
+.navigation-bar{
+margin: 8px 8px 0 12px;
+}
+
+}
+@media (max-width:760px) {
+    .second-section{
+       
+        height: 50vh;
+        
+    }
+}
+
+@media screen and (min-width: 768px){
+    .toggle-bar{
+         display: none;
+    }
+} 
+
